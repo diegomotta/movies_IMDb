@@ -7,7 +7,7 @@ import {MovieIcon} from '../../icons';
 export default  ({history})=>{
     const [searchText, setSearchText] = useState("");
     const classes = style();
-    const handleSearchTextChange = event=>{
+    const   handleSearchTextChange = event=>{
         setSearchText(event.target.value);
     };
 
